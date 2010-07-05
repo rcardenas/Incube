@@ -264,6 +264,43 @@
   {
   }
 
+/* @group Closure */
+
+#closure-blocks .block
+{
+	margin: 0;
+}
+#closure-inner
+{
+	width: 960px;
+	margin: 0 auto;
+}
+#copy
+{
+	background: #000000;
+	color: #FFFFFF;
+	font-size: 10px;
+}
+#copy p
+{
+	margin: 0 auto;
+	width: 960px;
+	height: 18px;
+	line-height: 18px;
+	text-align: right;
+}
+
+/* @end */
+
+/* @group Content */
+
+#content
+{
+	background-color: #F7F6F3;
+}
+
+/* @end */
+
   #search-box /* Wrapper for the search form */
   {
   }
@@ -316,6 +353,7 @@
 /** closure **/
   #closure-blocks /* Wrapper for any blocks placed in the closure region */
   {
+	background-color: #313131;
   }
 
 /** Drupal nodes **/

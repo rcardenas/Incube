@@ -22,8 +22,7 @@
   {
   }
 
-  #page,
-  #closure-blocks
+  #page
   {
     /*
      * If you want to make the page a fixed width and centered in the viewport,
@@ -176,12 +175,7 @@
                       Set this to the same value as the margin-top below. */
   }
 
-  .with-navbar #content,
-  .with-navbar #sidebar-left,
-  .with-navbar #sidebar-right
-  {
-    margin-top: 25px; /* Set this to the same value as the navbar height above. */
-  }
+
 
   #navbar-inner
   {

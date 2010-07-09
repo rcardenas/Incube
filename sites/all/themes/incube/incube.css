@@ -305,6 +305,162 @@
   {
   }
 
+/* @group Super */
+
+#super
+{
+	background-color: #000000;
+}
+#super-inner
+{
+	width: 960px;
+	margin: 0 auto;
+}
+#super .block
+{
+	margin: 0;
+}
+#super object
+{
+	display: block;
+}
+#super .view-sesion-video
+{
+	padding: 40px 0;
+}
+
+/* @end */
+
+/* @group Full node */
+
+/* @group Chapters */
+
+#block-views-sesion_chapters-block_1
+{
+	background-color: #1b1b1b;
+	padding: 10px;
+	padding-top: 30px;
+	border: 1px solid #FFFFFF;
+	border-top: none;
+}
+#block-views-sesion_chapters-block_1 img
+{
+	border: 2px solid #2c2c2c;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#block-views-sesion_chapters-block_1 .field-item
+{
+	margin-bottom: 30px;
+}
+#block-views-sesion_chapters-block_1 h2.title
+{
+	color: #ff0092;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+/* @end */
+
+.not-front h1
+{
+	margin: 40px 10px 10px 10px;
+	font-size: 38px;
+	line-height: 39px;
+}
+.node.full-node
+{
+	margin: 10px;
+	font-size: 13px;
+	line-height: 17px;
+}
+
+/* @group Comments */
+
+#content #comments
+{
+	border-top: 1px solid #B1B1AE;
+	margin: 10px;
+	color: #373737;
+}
+#comments .box-inner .title
+{
+	display: none;
+}
+
+#comment-form .tips,
+#comment-form p
+{
+	display: none;
+}
+#comment-form #edit-preview
+{
+	display: none;
+}
+#comment-form .form-text,
+#comment-form .form-textarea
+{
+	background-color: #DDDDDD;
+	border: 1px solid #FFFFFF;
+	font-size: 12px;
+	padding: 5px;
+	color: #333333;
+}
+#comment-form .form-text
+{
+	width: 150px;
+}
+#comment-form .form-textarea
+{
+	width: 250px;
+	height: 100px;
+}
+#comment-form label
+{
+	font-weight: normal;
+	font-size: 12px;
+}
+#comment-form .form-item
+{
+	margin: 0;
+}
+#comment-form #edit-submit
+{
+	border: 1px solid #FFFFFF;
+	background-color: #DDDDDD;
+	width: 60px;
+	height: 25px;
+}
+.comment .submitted
+{
+	display: none;
+}
+.comment .links
+{
+	display: none;
+}
+.comment h3 a
+{
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	line-height: 13px;
+}
+.comment h3
+{
+	line-height: 13px;
+}
+.comment .content p
+{
+	margin-top: 0;
+	font-size: 12px;
+}
+
+/* @end */
+
+/* @end */
+
   #edit-search-theme-form-1-wrapper label /* Label that says "Search this site:" */
   {
     display: none;

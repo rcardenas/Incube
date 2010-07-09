@@ -142,6 +142,10 @@
 	    
 	    </div> <!-- /#header-inner, /#header -->
 
+		<div id="super">
+			<div id="super-inner"><?=$super?></div>
+		</div>
+		
   <div id="page"><div id="page-inner">
 
     <div id="main"><div id="main-inner" class="clear-block<?php if ($search_box || $primary_links || $secondary_links || $navbar) { print ' with-navbar'; } ?>">

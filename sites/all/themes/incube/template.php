@@ -1,6 +1,8 @@
 <?php
 // $Id: template.php,v 1.17.2.1 2009/02/13 06:47:44 johnalbin Exp $
 
+drupal_add_js(path_to_theme().'/js/engine.js');
+
 /**
  * @file
  * Contains theme override functions and preprocess functions for the theme.
@@ -127,9 +129,10 @@ function incube_preprocess_page(&$vars, $hook) {
  * @param $hook
  *   The name of the template being rendered ("node" in this case.)
  */
-/* -- Delete this line if you want to use this function
-function incube_preprocess_node(&$vars, $hook) {
-  $vars['sample_variable'] = t('Lorem ipsum.');
+
+function incube_preprocess_node(&$vars, $hook) 
+{
+  //print_r($vars['node']);
 }
 // */
 

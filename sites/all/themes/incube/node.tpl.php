@@ -52,33 +52,20 @@
 
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> <?=($page)?'full-node':''?>"><div class="node-inner">
-
-  <?php print $picture; ?>
-
   
     <h2 class="title">
       <a href="<?php print $node_url; ?>" title="<?php print $title ?>"><?php print $title; ?></a>
     </h2>
   
+  <div class="author clear-block">Por <?=$node->name?>. <?=$date?> <div class="comments">(<?=$comment_count?>) comentarios</div></div>
 
-  <?php if ($unpublished): ?>
-    <div class="unpublished"><?php print t('Unpublished'); ?></div>
-  <?php endif; ?>
-
-  <?php if ($submitted || $terms): ?>
-    <div class="meta">
-
-      <?php if ($terms): ?>
-        <div class="terms terms-inline"><?php print t(' in ') . $terms; ?></div>
-      <?php endif; ?>
-    </div>
-  <?php endif; ?>
+	<?=$field_portada_rendered?>
 
   <div class="content">
     <?php print $content; ?>
   </div>
 
-  <?php print $links; ?>
+	<?=l('Continúa leyendo...','node/'.$node->nid, array( 'attributes'=>array('class'=>'more') ))?>
 
 </div></div> <!-- /node-inner, /node -->
 
@@ -88,19 +75,10 @@
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> <?=($page)?'full-node':''?>"><div class="node-inner">
 
-  <?php print $picture; ?>
-
+	<?=$field_portada_rendered?>
+	
   <?php if ($unpublished): ?>
     <div class="unpublished"><?php print t('Unpublished'); ?></div>
-  <?php endif; ?>
-
-  <?php if ($submitted || $terms): ?>
-    <div class="meta">
-
-      <?php if ($terms): ?>
-        <div class="terms terms-inline"><?php print t(' in ') . $terms; ?></div>
-      <?php endif; ?>
-    </div>
   <?php endif; ?>
 
   <div class="content">

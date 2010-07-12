@@ -75,7 +75,9 @@
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> <?=($page)?'full-node':''?>"><div class="node-inner">
 
+	<? if ($node->type != 'sesion'): ?>
 	<?=$field_portada_rendered?>
+	<? endif; ?>
 	
   <?php if ($unpublished): ?>
     <div class="unpublished"><?php print t('Unpublished'); ?></div>
@@ -85,8 +87,16 @@
     <?php print $content; ?>
   </div>
 
-  <?php print $links; ?>
+	<? if ($field_fotogaleria_rendered): ?>
+		<div class="fotogaleria-wrapper">
+			<h2>Fotogaler&iacute;a</h2>
+			<?=$field_fotogaleria_rendered?>
+		</div>
+	<? endif; ?>
 
+  <? if ($links): ?>
+  <div class="links-wrapper"><?php print $links; ?></div>
+	<? endif; ?>
 </div></div> <!-- /node-inner, /node -->
 
 <?php endif; ?>

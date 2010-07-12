@@ -141,10 +141,12 @@
 	          <?php endif; ?>
 	    
 	    </div> <!-- /#header-inner, /#header -->
-
+		
+		<? if ($super): ?>
 		<div id="super">
 			<div id="super-inner"><?=$super?></div>
 		</div>
+		<? endif; ?>
 		
   <div id="page"><div id="page-inner">
 

@@ -380,6 +380,61 @@ a
 
 /* @group Full node */
 
+/* @group Article */
+
+.node-type-articulo .field-field-portada
+{
+	margin-top: 20px;
+}
+.not-front.node-type-articulo .field-field-portada img
+{
+	box-shadow: 0px 0px 15px #666666;
+	-moz-box-shadow: 0px 0px 15px #666666;
+}
+.node-type-articulo #content #comments
+{
+	margin: 10px 30px;
+}
+.node-type-articulo #content #comments .content
+{
+	margin: 0;
+}
+
+.fotogaleria-wrapper
+{
+	background-color: #1c1c1c;
+	padding: 20px 30px;
+}
+.fotogaleria-wrapper h2
+{
+	color: #ff0092;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.fotogaleria-wrapper img
+{
+	display: block;
+	border: 1px solid #333333;
+}
+.field-field-fotogaleria
+{
+	overflow: hidden;
+	position: relative;
+	height: 67px;
+}
+.field-field-fotogaleria .field-items
+{
+	position: absolute;
+	width: 20000em;
+}
+.field-field-fotogaleria .field-item
+{
+	float: left;
+	margin-right: 10px;
+}
+
+/* @end */
+
 /* @group Chapters */
 
 #block-views-sesion_chapters-block_1
@@ -418,9 +473,23 @@ a
 }
 .node.full-node
 {
-	margin: 10px;
 	font-size: 13px;
 	line-height: 17px;
+}
+.full-node .content,
+.full-node .links-wrapper
+{
+	margin: 10px;
+}
+.node-type-articulo #content .content,
+.node-type-articulo #content .links-wrapper
+{
+	margin: 10px 30px;
+}
+.node-type-articulo h1
+{
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 /* @group Comments */
@@ -696,12 +765,6 @@ a
 	border: 1px solid #222222;
 	display: block;
 }
-
-/* @end */
-
-/* @group Article */
-
-
 
 /* @end */
 

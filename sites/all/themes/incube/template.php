@@ -2,6 +2,9 @@
 // $Id: template.php,v 1.17.2.1 2009/02/13 06:47:44 johnalbin Exp $
 
 drupal_add_js(path_to_theme().'/js/engine.js');
+drupal_add_js(path_to_theme().'/js/fancybox/jquery.fancybox-1.3.1.js');
+drupal_add_js(path_to_theme().'/js/jquery.tools.min.js');
+drupal_add_css(path_to_theme().'/js/fancybox/jquery.fancybox-1.3.1.css');
 
 /**
  * @file

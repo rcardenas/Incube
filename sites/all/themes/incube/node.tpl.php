@@ -89,6 +89,8 @@
 
 	<? if ($field_fotogaleria_rendered): ?>
 		<div class="fotogaleria-wrapper">
+			<a href="javascript:void(0)" class="prev">prev</a>
+			<a href="javascript:void(0)" class="next">next</a>
 			<h2>Fotogaler&iacute;a</h2>
 			<?=$field_fotogaleria_rendered?>
 		</div>

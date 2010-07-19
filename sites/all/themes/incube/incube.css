@@ -1365,6 +1365,56 @@ a
     border-bottom: 3px solid #ccc;
   }
 
+/* @group Search */
+
+/* @group Results */
+
+.section-search h1.title
+{
+	display: none;
+}
+.section-search #content-area
+{
+	padding: 10px;
+}
+.section-search dd
+{
+	font-size: 13px;
+	line-height: 17px;
+}
+
+/* @end */
+
+/* @group Form */
+
+#search-block-form label
+{
+	display: none;
+}
+#search-block-form .form-text
+{
+	border: 1px solid #666666;
+	padding: 4px;
+	color: #999999;
+	background: #333333 url(img/topsh.png) repeat-x;
+}
+#search-block-form .form-submit
+{
+	border: none;
+	color: #999999;
+	background-color: #000000;
+}
+#header-blocks
+{
+	float: right;
+}
+
+/* @end */
+
+
+
+/* @end */
+
 /* @group Taxonomy */
 
 .section-taxonomy #content
